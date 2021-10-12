@@ -22,8 +22,10 @@ void puts_half(char *str)
 
 	while (*ptr != '\0')
 	{
-		if (count >= n)
+		if (count >= n && n % 2 != 0)
 			_putchar (*ptr);
+		else if (count > n)
+			_putchar(*ptr);	
 		count++;
 		ptr++;
 	}
