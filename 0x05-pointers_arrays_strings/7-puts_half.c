@@ -25,7 +25,7 @@ void puts_half(char *str)
 		if (count >= n && n % 2 != 0)
 			_putchar (*ptr);
 		else if (count > n)
-			_putchar(*ptr);	
+			_putchar(*ptr);
 		count++;
 		ptr++;
 	}
